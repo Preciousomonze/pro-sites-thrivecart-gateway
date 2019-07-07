@@ -26,9 +26,9 @@ if ( ! class_exists( 'PK_Prosites_Thrivecart_Gateway' ) ) {
         private static $webhook = 'ps-thrivecart-getway';
         private static $webhook_tag = 'thrive-cart-webhook';
         // This param is for linking to gateway
-        private static $gateway_url = 'https://wgears.thrivecart.com/';
-        private static $thrive_account = 'wgears';
-        private static $thrive_secret_key = 'VJ7ZDVVQ49R9';
+        private static $gateway_url = '';//your thrivecart url here, e.g http://yout.thrivecart.com
+        private static $thrive_account = '';//your thrivecart account username here, e.g yout
+        private static $thrive_secret_key = '';//your thrivecart secret key here
         private static $thrivecart_action = 'wpmudev_ps_thrivecart';
         // This parameters are the ones set in settings() method. 
         // We use the same names as we used in the settings fields. No restriction though
