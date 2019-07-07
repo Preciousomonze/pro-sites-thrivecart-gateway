@@ -3,7 +3,8 @@ A thrivecart gateway for Pro Sites plugin that makes use of thrivecart webhooks 
 
 ## How to Put on WordPress Site
  - Download the zip file you see on the repo, and upload it the normal way you would upload any wordpress plugin.
- - Make sure you have Prosites plugin active for it to work. 
+ - Make sure you have Prosites plugin active for it to work.
+ - After activation, make sure you reset your permalinks, by saving it again, so the webhook url is recognised.
 
 ## What to do on your thrivecart account
  - Copy the webhook url on prosite thrivecart settings page and past in your Thrivecart account under __Settings > API & Webhooks > Webhooks & notifications__.
